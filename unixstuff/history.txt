@@ -1,0 +1,100 @@
+  106  pwd
+  107  ls unixstuff/backups
+  108  ls ~/unixstuff
+  109  ls ~
+  110  ls ~/..
+  111  man wc
+  112  wc --help
+  113  whatis wc
+  114  cd ~/unixstuff
+  115  cd ..
+  116  cd ~/unixstuff
+  117  ls
+  118  cd unixstuff/
+  119  cp ../science.txt .
+  120  mv science.txt ~/hw1/unixstuff/
+  121  cd
+  122  nano science.txt
+  123  cd ~/unixstuff
+  124  cd phys1655/hw/hw1/unixstuff/
+  125  cp ../science.txt .
+  126  ls ~
+  127  cp ~/science.txt ~/phys1655/hw/hw1/science.txt
+  128  cd ~/phys1655/hw/hw1/unixstuff
+  129  cp ../science.txt ./newscience
+  130  ls
+  131  mv science.bak backups/.
+  132  ls
+  133  mkdir backups
+  134  mv science.bak backups/.
+  135  ls
+  136  rm newscience 
+  137  cp ../science.txt ./science.bak
+  138  ls
+  139  mv science.bak backups/.
+  140  ls
+  141  ls backups/
+  142   cp science.txt tempfile.txt
+  143  ls
+  144  ../science.txt tempfile.txt
+  145  ls
+  146  cd ..
+  147  ls
+  148  cp science.txt unixstuff/science1.txt
+  149  ls
+  150  cd unixstuff/
+  151   cp science1.txt tempfile.txt
+  152  ls
+  153  rm tempfile.txt 
+  154  ls
+  155  cat science1.txt 
+  156  more science1.txt 
+  157  head science1.txt 
+  158  head -5 science1.txt 
+  159  tail science1.txt 
+  160  grep science science1.txt 
+  161  grep -i science1.txt 
+  162  cat
+  163  cat > list1
+  164  cat list1
+  165  cat > list2
+  166  cat >> list1
+  167  cat list1
+  168  cat list1 list2 > biglist
+  169  cat biglist
+  170  sort
+  171  sort > biglist
+  172  sort < biglist
+  173  sort < biglist > slist
+  174  cat slist
+  175  ls
+  176  cat biglist 
+  177  who
+  178  who > names.txt
+  179  sort < names.txt
+  180  ls
+  181  who | sort
+  182  who | wc -l
+  183  ls list*
+  184  ls *list
+  185  ls ?list
+  186  ls -l
+  187  ps -u mst3k
+  188  ps -u hza4mq
+  189  sleep 10
+  190  jobs
+  191  history
+  192  set history=100
+  193  echo $SHELL
+  194  printenv | more
+  195  export VAR=value
+  196  nano envs.sh
+  197  source envs.sh
+  198  echo $ncpus
+  199  source ~/.bashrc
+  200  export PATH=$PATH:$HOME/units174/bin
+  201  cd; units
+  202  cd phys1655/hw/hw1/
+  203  ls
+  204  cd unixstuff/
+  205  history 100 > history.tx
